@@ -9,7 +9,6 @@ class FileManager{
     }
 
     readFile = async()=>{
-        debugger;
         let content = fs
         .readFileSync(this.filePath)
         .toString('UTF8')
