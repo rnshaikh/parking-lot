@@ -1,5 +1,9 @@
 class Payment{
 
+    /*
+        Payment class is used for calculating payment/cost of ticket
+    */
+
     constructor(){}
 
     calculate_payment=(hours) =>{

@@ -3,6 +3,10 @@ const { Payment } = require('./payment');
 
 class ParkingLot{
 
+    /*
+        Parking Lot class is used for parking related operations.
+    */
+
     constructor(capacity){
 
         this.map = {}

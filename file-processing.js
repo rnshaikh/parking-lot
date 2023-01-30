@@ -1,7 +1,9 @@
 const fs = require('fs');
 
 class FileManager{
-
+    /*
+        Filemanger class is used for read content of file 
+    */
     constructor(path){
         this.filePath = path
     }
