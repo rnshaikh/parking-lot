@@ -22,6 +22,10 @@ let input = readLine.createInterface({
 
 class ProcessCommand{
 
+     /*
+        ProcessCommand class is used for processing commands 
+    */
+
     constructor(){
         this.parking_lot = null;
     }
